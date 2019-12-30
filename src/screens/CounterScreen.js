@@ -1,6 +1,5 @@
 import React, { useReducer } from 'react';
 import { Text, StyleSheet, View, Button } from 'react-native';
-import { startAsync } from 'expo/build/AR';
 
 const reducer = (state, action) => {
     // state === { count: number }
